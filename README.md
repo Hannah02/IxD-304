@@ -9,4 +9,7 @@ I created backgrounds for each of these that match the buttons in the menus of t
 My website also includes a button that allows the user to choose line art only icons, or colour ones. I included animation to this circle button to create a point of interest that will make the user want to click on it to discover what it does.
 
 
+-[A gif showing all the different black and white icons](https://dribbble.com/shots/3477845-Borderlands-2-Icons-Black-White)
+-[Further styling for some of the icons](https://dribbble.com/shots/3434461-Claptrap)
+
 -[Research] ()
