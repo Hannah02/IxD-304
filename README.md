@@ -13,7 +13,9 @@ My website also includes a button that allows the user to choose line art only i
 
 
 -Exploration of a different style for some of the icons
+
 [Claptrap](https://dribbble.com/shots/3434461-Claptrap)
-[Maya]
+
+[Maya](https://Hannah02.github.io/IxD-304/Maya.jpg)
 
 -[Research] ()
