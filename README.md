@@ -1,6 +1,9 @@
 # IxD-304
 IXD304 Creative Entrepreneurship
 
+
+-[A gif showing all the different black and white icons](https://dribbble.com/shots/3477845-Borderlands-2-Icons-Black-White)
+
 -[Digital Product and Promotional Website](https://Hannah02.github.io/IxD-304/BorderlandsIconsBnW/index.html)
 My digital product is a set of icons based off of my favourite characters from the game, Borderlands 2. I spent a lot of time trying to make these icons look professional while also fitting in with the aesthetic of the game itself. I tried to learn and grow from the improvised feel of my design work from last year by making icons that are contained within the same grid and being mindful of the width of the lines I am using. 
 
@@ -9,7 +12,8 @@ I created backgrounds for each of these that match the buttons in the menus of t
 My website also includes a button that allows the user to choose line art only icons, or colour ones. I included animation to this circle button to create a point of interest that will make the user want to click on it to discover what it does.
 
 
--[A gif showing all the different black and white icons](https://dribbble.com/shots/3477845-Borderlands-2-Icons-Black-White)
--[Further styling for some of the icons](https://dribbble.com/shots/3434461-Claptrap)
+-Exploration of a different style for some of the icons
+[Claptrap](https://dribbble.com/shots/3434461-Claptrap)
+[Maya]
 
 -[Research] ()
