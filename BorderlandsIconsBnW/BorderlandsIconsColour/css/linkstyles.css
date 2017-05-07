@@ -1,0 +1,418 @@
+/* General link styles */
+.link {
+	outline: none;
+	text-decoration: none;
+	position: relative;
+	font-size: 2em;
+	line-height: 1;
+	color: #FACA33;
+	display: inline-block;
+    left: 595px;
+    
+
+}
+
+/* Takiri */
+.link--takiri {
+	font-style: italic;
+	font-family: 'Impact', sans-serif;
+	font-weight: 500;
+	font-size: 3em;
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+    top: 100px;
+}
+
+.link--takiri:hover {
+	color: #FACA33;
+}
+
+.link--takiri::before {
+	content: '';
+	position: absolute;
+	height: 36px;
+	width: 70%;
+	top: 50%;
+	margin-top: -18px;
+	left: 10%;
+	z-index: -1;
+	background: #F9F9F9;
+	-webkit-transform: rotate3d(0,0,1,45deg) scale3d(0,1,1);
+	transform: rotate3d(0,0,1,45deg) scale3d(0,1,1);
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+}
+
+.link--takiri:hover::before {
+    
+	-webkit-transform: rotate3d(0,0,1,45deg) scale3d(1,1,1);
+	transform: rotate3d(0,0,1,45deg) scale3d(1,1,1);
+}
+
+.link--takiri span {
+	font-size: 60%;
+	font-weight: 400;
+	position: absolute;
+	right: 15px;
+	color: #5BB9DB;
+	bottom: -100;
+	opacity: 0;
+	-webkit-transform: translate3d(-10px,-10px,0);
+	transform: translate3d(-10px,-10px,0);
+	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+	transition: transform 0.5s, opacity 0.5s;
+}
+
+.link--takiri:hover span {
+    
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+
+hr {width: 270px;
+    background-color: black;
+    border: solid 1.5px;
+    left: 595px;
+    position: absolute;
+    top: 200px;
+}
+
+
+#circle {
+	border-radius: 50%;
+	width: 20px;
+    height: 20px; 
+    background-color: darkgray;
+    position: absolute;
+    top: 230px;
+    left: 720px;}
+
+
+
+#mort {position: absolute;
+        top: 400px;
+        left: 270px;
+        filter: brightness(1);
+        transition: 0.4s ease-out;}
+
+#mort:hover {filter: brightness(0.4);}
+
+#hJack {position: absolute;
+        top: 400px;
+        left: 600px;
+        filter: brightness(1);
+        transition: 0.4s ease-out;}
+
+#hJack:hover {filter: brightness(0.4);}
+
+#tTina {position: absolute;
+        top: 400px;
+        left: 930px;
+        filter: brightness(1);
+        transition: 0.4s ease-out;}
+
+#tTina:hover {filter: brightness(0.4);}
+
+#maya {position: absolute;
+        top: 700px;
+        left: 270px;
+        filter: brightness(1);
+        transition: 0.4s ease-out;}
+
+#maya:hover {filter: brightness(0.4);}
+
+#zero {position: absolute;
+        top: 700px;
+        left: 600px;
+        filter: brightness(1);
+        transition: 0.4s ease-out;}
+
+#zero:hover {filter: brightness(0.4);}
+
+#gaige {position: absolute;
+        top: 700px;
+        left: 930px;
+        filter: brightness(1);
+        transition: 0.4s ease-out;}
+
+#gaige:hover {filter: brightness(0.4);}
+
+#claptrap {position: absolute;
+        top: 1000px;
+        left: 600px;
+        filter: brightness(1);
+        transition: 0.4s ease-out;}
+
+#claptrap:hover {filter: brightness(0.4);}
+
+
+
+#drop {z-index: 10;
+
+height: 10px;
+width: 10px;}
+
+
+footer {width: 1440px;
+    height: 100px;
+    position: absolute;
+    top: 1800px;
+    z-index: 10;
+    background-color: #2995BD;}
+
+#hr2 {position: absolute;
+    top: 1350px}
+
+#button {position: absolute;
+    left: 610px;
+    top: 1500px;}
+
+#download {position: absolute;
+    left: 644px;
+    color: black;
+    text-decoration: none;
+    width: 200px;
+    top: 1513px;
+    font-size: 25px;
+    font-family: "Impact", sans-serif;
+transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -webkit-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;}
+
+#download:hover {opacity: 0.5;
+}
+
+#twitter, #insta, #dribbble {height: 40px;
+position: absolute;
+top: 25px;}
+
+#twitter {left: 620px;
+            opacity: 1;
+            transition: 0.4s ease-out;}
+#twitter:hover {opacity: 0.7;}
+
+#insta {left: 710px;
+    opacity: 1;
+    transition: 0.4s ease-out;}
+#insta:hover {opacity: 0.7;}
+
+#dribbble {left: 800px;
+            opacity: 1;
+            transition: 0.4s ease-out;}
+#dribbble:hover {opacity: 0.7;}
+
+
+
+
+#mort {
+  display: block;
+}
+
+#mort:hover + #mortDescription {
+  display:block;
+}
+
+#mortDescription
+{
+  display:none;
+    position: absolute;
+    left: 300px;
+    width: 200px;
+    top: 480px;
+    color: white;
+  }
+
+#hJack {
+  display: block;
+}
+
+#hJack:hover + #hJackDescription {
+  display:block;
+}
+
+#hJackDescription
+{
+  display:none;
+    position: absolute;
+    left: 640px;
+    width: 200px;
+    top: 480px;
+    color: white;
+  }
+
+
+#tTina {
+  display: block;
+}
+
+#tTina:hover + #tTinaDescription {
+  display:block;
+}
+
+#tTinaDescription
+{
+  display:none;
+    position: absolute;
+    left: 970px;
+    width: 200px;
+    top: 480px;
+    color: white;
+  }
+
+
+
+#maya {
+  display: block;
+}
+
+#maya:hover + #mayaDescription {
+  display:block;
+}
+
+#mayaDescription
+{
+  display:none;
+    position: absolute;
+    left: 300px;
+    width: 200px;
+    top: 780px;
+    color: white;
+  }
+
+
+#zero {
+  display: block;
+}
+
+#zero:hover + #zeroDescription {
+  display:block;
+}
+
+#zeroDescription
+{
+  display:none;
+    position: absolute;
+    left: 640px;
+    width: 200px;
+    top: 780px;
+    color: white;}
+    
+    #gaige {
+  display: block;
+}
+
+#gaige:hover + #gaigeDescription {
+  display:block;
+}
+
+#gaigeDescription
+{
+  display:none;
+    position: absolute;
+    left: 970px;
+    width: 200px;
+    top: 780px;
+    color: white;}
+
+    #claptrap {
+  display: block;
+}
+
+#claptrap:hover + #claptrapDescription {
+  display:block;
+}
+
+#claptrapDescription
+{
+  display:none;
+    position: absolute;
+    left: 640px;
+    width: 200px;
+    top: 1080px;
+    color: white;}
+
+
+/* animation */
+
+
+#circle:hover {  
+        -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;}
+
+
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+
+
+
