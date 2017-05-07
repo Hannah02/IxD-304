@@ -1,4 +1,4 @@
-#This is the hover-over heading I have used for the top of my icon page. I have edited it to suit my page but the credit for the original code goes to the Codrops website-
+This is the hover-over heading I have used for the top of my icon page. I have edited it to suit my page but the credit for the original code goes to the Codrops website-
 
 Inspiration for Text Styles and Hover Effects
 =========
